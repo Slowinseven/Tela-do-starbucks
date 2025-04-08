@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+    padding: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar-left img {
+    width: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * {
+    padding: 13px;
+}
+
+.navbar-right img {
+    width: 120px;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.encontre {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.encontre-loja-text {
+    padding-left: 5px;
+}
+
+.menu:hover {
+    color: green;
+}
+
+.menu:hover, .encontre:hover, .encontre-loja-text:hover {
+    cursor: pointer;
+}
+
+#container {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: -0.14px;
+    line-height: 21px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.produtos-duplos {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* Lado esquerdo com texto */
+.produto-esquerda {
+    background-color: #D4E9E2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    max-width: 50%;
+}
+
+/* Título */
+.produto-titulo {
+    font-size: 24px;
+    color: #1E3932;
+    margin-bottom: 30px;
+    font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Descrição */
+.produto-descricao span {
+    font-size: 16.8px;
+    color: #1E3932;
+    font-family: "SoDo Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.produto-descricao strong{
+    font-weight: 800;
+}
+
+
+/* Botão */
+.product-button {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: 1px solid #1E3932;
+    border-radius: 20px;
+    color: #1E3932;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.product-button:hover {
+    color: #1E3932;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra ao passar o mouse */
+    transform: scale(0.90); /* diminui levemente */
+    background-color: #C8DBD5;
+}
+
+/* Lado direito com imagem */
+.produto-direita {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-direita img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.produto-esquerda .produto-descricao{
+    font-size: 1.8rem;
+}
